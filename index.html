@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website-Lab1</title>
+</head>
+
+<style>
+    table{
+        border: 1px solid black;
+        width: 100px;
+        height: 100px;
+    }
+    tr, td{
+        border: 1px solid black;
+    }
+
+    ul li{
+        display: inline;
+        margin: 20px;
+        }
+
+    a{
+        text-decoration: none;
+    }
+</style>
+
+<body>
+    <header>
+        <p>Strona główna</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Strona główna</a></li>
+            <li><a href="./zainteresowania.html">Zainteresowania</a></li>
+            <li><a href="./wykształcenie.html">Wykształcenie</a></li>
+            
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+                <p><strong>Zadanie 4.1</strong> Utwórz poniższą tabelę:</p>
+        </section>
+
+            <table>
+               <tr>
+                <td>1</td>
+                <td rowspan="2">2</td>
+                <td>3</td>
+               </tr>
+               <tr>
+                <td>4</td>
+                <td>5</td>
+               </tr>
+               <tr>
+                <td>6</td>
+                <td rowspan="2" colspan="2">7</td>
+               </tr>
+               <tr>
+                <td>8</td>
+               </tr>
+               <tr>
+                <td colspan="2">9</td>
+                <td>10</td>
+               </tr>
+            </table>
+
+        <article>
+            <p style="font-size: 20px;"><b>Zadanie 5.</b> Dodaj obrazek do swojej strony, użyj:</p>
+        
+            <img src="https://tvn24.pl/najnowsze/cdn-zdjecie-xdov0m-shutterstock459452128-5592000/alternates/LANDSCAPE_840" alt="Zdjęcie marsa na tle galaktyki">
+        
+        </article>
+
+        <section>
+            <p><b>Zadanie 8*. </b>Do swojej strony dodaj elementy formularza</p>
+        
+            <p style="font-size: 35px;"><b>Your news form</b></p>
+
+
+            <form action="" method="get">
+                <label for="">Name:</label>
+                <input type="text">
+            </form>
+
+            <form action="" method="get">
+                <label for="">Pasword:</label>
+                <input type="password">
+            </form>
+        
+            <p>Do you want ti get news daily?<input type="checkbox"></p>
+            <p>Do you want ti get 10% discount?<input type="radio"></p>
+            <p>Select first news day<input type="date"></p>
+            <button>Subscribe</button>
+
+        
+        </section>
+
+
+    </main>
+
+    <aside>
+
+    </aside>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
